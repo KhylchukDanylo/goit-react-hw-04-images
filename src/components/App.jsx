@@ -135,7 +135,7 @@ export default class App extends Component {
         )}
         {isLoading && <ThreeDots color="#3f51b5" />}
         {imgOnRequest > 1 && imgOnRequest === totalImages && (
-          <Notification>Nothing else for your request...</Notification>
+          <Notification>Photos are finished saving...</Notification>
         )}
         <ToastContainer autoClose={2000} />
         <GlobalStyles />
